@@ -34,12 +34,12 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Intro',
-        link: '/introduction/',
-      },
-      {
         text: 'Projets',
         link: '/projects/'
+      },
+      {
+        text: 'Outils',
+        link: '/tools/',
       },
       {
         text: 'Github',
@@ -47,22 +47,24 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/introduction/': [
-        {
-          title: 'Intro',
-          collapsable: true,
-          children: [
-            '',
-          ]
-        }
-      ],
       '/projects/': [
         {
           title: 'Projects',
           collapsable: true,
           children: [
+            '',
             'geeksblabla',
             'voyager-hf',
+          ]
+        }
+      ],
+
+      '/tools/': [
+        {
+          title: 'Les outils',
+          collapsable: false,
+          children: [
+            '',
           ]
         }
       ],
