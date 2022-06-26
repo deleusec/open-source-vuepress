@@ -1,0 +1,19 @@
+{
+  "name": "os-projects",
+  "version": "0.0.1",
+  "description": "Presentation of my open source projects",
+  "main": "index.js",
+  "authors": {
+    "name": "Corentin Deleuse",
+    "email": "dlse.corentin@gmail.com"
+  },
+  "repository": "https://github.com/deleusec/open-source-vuepress/os-projects",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
