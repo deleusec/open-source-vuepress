@@ -53,7 +53,6 @@ module.exports = {
           collapsable: true,
           children: [
             '',
-            'using-vue',
           ]
         }
       ],
@@ -62,8 +61,8 @@ module.exports = {
           title: 'Projects',
           collapsable: true,
           children: [
-            '',
-            'test',
+            'geeksblabla',
+            'voyager-hf',
           ]
         }
       ],
