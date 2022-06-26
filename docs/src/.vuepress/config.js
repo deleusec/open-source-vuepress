@@ -16,8 +16,9 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#9461E5' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['link', { rel: 'icon',type:'image/png', href: '/logo.png' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
@@ -29,6 +30,7 @@ module.exports = {
   themeConfig: {
     repo: '',
     editLinks: false,
+    logo:'assets/img/logo.svg',
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
@@ -50,7 +52,7 @@ module.exports = {
       '/projects/': [
         {
           title: 'Projects',
-          collapsable: true,
+          collapsable: false,
           children: [
             '',
             'geeksblabla',
@@ -61,7 +63,7 @@ module.exports = {
 
       '/tools/': [
         {
-          title: 'Les outils',
+          title: 'Outils',
           collapsable: false,
           children: [
             '',

@@ -11,5 +11,4 @@ Dans le cadre d'une contribution, les indications données étaient alors les su
 - Bonus de 5 points / 20 si votre PR est accepté ou une proposition utile est accepté
 
 
-Je vais donc aujourd'hui vous présenter mes différentes réalisations 
-[Voir les projets](../projects/geeksblabla.md)
+Je vais donc aujourd'hui vous présenter mes différentes réalisations.
