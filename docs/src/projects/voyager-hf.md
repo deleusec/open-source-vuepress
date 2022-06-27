@@ -60,7 +60,7 @@ Voici ci-dessous en vert les modifications apportées au style du menu.
 ### Seconde issue
 Pour cette seconde et dernière issue, il fallait donc mettre en place un bouton de scroll sur la landing page comme on peut le voir ci-dessous. 
 ![](../.vuepress/assets/img/scroll_button.png)
-J'ai d'abord dû ajouter dans le fichier home.html au niveau de la landing page les éléments suivants :
+J'ai d'abord dû ajouter dans le fichier `home.html` au niveau de la landing page les éléments suivants :
 ![](../.vuepress/assets/img/home.html.png)
 Pour ensuite modifier le style et créer des animations en css.
 ![](../.vuepress/assets/img/main.css.png)
@@ -69,7 +69,7 @@ Pour ensuite modifier le style et créer des animations en css.
 
 Mon erreur aura été de ne pas initialiser le gitflow afin de créer une feature pour chaque issue traitée.
 En effet, ayant commit mes modifications sur la même branche du dépôt, je me suis retrouvé dans l'impossibilité de faire une Pull Request pour chacune des issues. 
-Voyant que le dépôt n'était composé que d'une seule branche main, je n'ai pas pensé bon d'initialiser un GitFlow, et donc par conséquent de créer une branche develop, seulement pour mes petites modifications.
+Voyant que le dépôt n'était composé que d'une seule branche main, je n'ai pas pensé bon d'initialiser un GitFlow, et donc par conséquent de créer une branche develop seulement pour mes petites modifications.
 Mais je n'ai pas pensé au fait que la seule branche que l'auteur du projet aurait à comparer et à merger dans la branche main serait celle de ma feature.
 
 J'ai donc dû créer une Pull Request pour les deux tickets en même temps, ce qu'y n'est pas une bonne pratique, mais cela me permettra de ne pas reproduire ce genre d'erreur à l'avenir. 
