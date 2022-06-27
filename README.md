@@ -5,4 +5,7 @@
 
 # Projet Open Source
 
-Présentation de différentes collaborations sur des projets open sources réalisés dans le cadre de notre cours sur les projets open sources.
+<https://deleusec-open-source.netlify.app/>
+
+Présentation de différentes collaborations sur des projets open source réalisés dans le cadre de notre cours sur les projets open sources.
+![](docs/src/.vuepress/assets/img/home_page.png)
