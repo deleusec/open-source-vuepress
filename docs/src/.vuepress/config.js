@@ -18,7 +18,7 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#9461E5' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['link', { rel: 'icon',type:'image/png', href: '/logo.png' }],
+    ['link', { rel: 'icon',type:'image/png', href: 'assets/img/icon.png' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
